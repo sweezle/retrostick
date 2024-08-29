@@ -1,9 +1,9 @@
 diff --git a/input/input_defines.h b/input/input_defines.h
-index bdd36fc37a..60474b2fab 100644
+index 44cf2c8284..d417749416 100644
 --- a/input/input_defines.h
 +++ b/input/input_defines.h
 @@ -22,9 +22,9 @@
-
+ 
  #include <retro_common_api.h>
  
 -#define MAX_USERS                      16
@@ -12,5 +12,5 @@ index bdd36fc37a..60474b2fab 100644
 -#define MAX_INPUT_DEVICES              16
 +#define MAX_INPUT_DEVICES              4
  
- #define RARCH_MAX_KEYS 137
+ #define RARCH_MAX_KEYS                 155
  
