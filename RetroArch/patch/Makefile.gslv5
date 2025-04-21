@@ -22,7 +22,6 @@ retroarch:
 		--disable-microphone \
 		--disable-netplaydiscovery \
 		--disable-networkgamepad \
-		--disable-networking \
 		--disable-online_updater \
 		--disable-opengl1 \
 		--disable-opengl_core \
@@ -55,6 +54,7 @@ retroarch:
 		--enable-rewind \
 		--enable-threads \
 		--enable-udev
+		--enable-networking \
 
 	sed -i 's|HAVE_XKBCOMMON = 1|HAVE_XKBCOMMON = 0|g' ./config.mk
 	sed -i 's|XKBCOMMON_LIBS = -lxkbcommon|XKBCOMMON_LIBS = |g' ./config.mk
