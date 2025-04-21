@@ -27,13 +27,13 @@ retroarch:
 		--disable-opengl1 \
 		--disable-opengl_core \
 		--disable-oss \
-		--disable-overlay \
+		--enable-overlay \
 		--disable-runahead \
 		--disable-screenshots \
 		--disable-sdl \
 		--disable-sdl2 \
 		--disable-slang \
-		--disable-translate \
+		--enable-translate \
 		--disable-wayland \
 		--disable-x11 \
 		--enable-7zip \
